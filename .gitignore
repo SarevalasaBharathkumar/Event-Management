@@ -1,9 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
 /.pnp
 .pnp.js
+
+backend/node_modules/
+frontend/node_modules/
 
 # testing
 /coverage
@@ -24,3 +26,12 @@ yarn-debug.log*
 yarn-error.log*
 
 backend/event-management-8c4d4-firebase-adminsdk-pjkit-57359a26ad.json
+
+# Logs
+backend/logs/
+frontend/logs/
+*.log
+
+# Environment variables
+backend/.env
+frontend/.env
